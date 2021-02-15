@@ -1,2 +1,2 @@
 # Twitter lib - Developing
-Twitter library of the Twitter API. 
+Twitter library for the Twitter API. 
