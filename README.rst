@@ -1,7 +1,7 @@
 Twitterlib - Developing
 ---------------------------
 
-A Twitter library of the Twitter API. 
+A Twitter library of the Twitter API. <br/>
 - Search posts in Twitter
 - Do posts in Twitter 
 - Delete posts in Twitter  
