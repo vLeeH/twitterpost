@@ -19,9 +19,9 @@ Installation
 Examples
 ---------------------------
 
-- `Basic <https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py#>`_ code example
-- `Intermediate <https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py#>`_ code example
-- `Advance <https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py#>`_ code example
+- `Basic <https://github.com/vLeeH/PostTwitter/blob/main/examples/Basic.py#>`_ code example
+- `Intermediate <https://github.com/vLeeH/PostTwitter/blob/main/examples/Intermediate.py#>`_ code example
+- `Advance <https://github.com/vLeeH/PostTwitter/blob/main/examples/Advance.py#>`_ code example
 
 Getting Started
 ---------------------------
