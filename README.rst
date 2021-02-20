@@ -13,7 +13,7 @@ Functionallies
 Installation 
 ---------------------------
 
-**Python** - ```3.8``` 
+**Python** - ``3.8`` 
 
 .. code:: sh
 
