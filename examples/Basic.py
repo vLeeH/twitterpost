@@ -10,14 +10,14 @@ token_key - is the token key of your app in Twitter api.
 token_secret - is the token secret of your app in Twitter api.
 """
 
-from Twitterlib import Twitter
+from PostTwitter import Twitter
 import os 
 
-api_key = os.getenv('API_KEY')
-secret_key = os.getenv('SECRET_KEY')
+api_key = API_KEY
+secret_key = SECRET_KEY
+token_key = TOKEN_KEY
+token_secret = TOKEN_SECRET
 
-token_key = os.getenv('TOKEN_KEY')
-token_secret = os.getenv('TOKEN_SECRET')
 
 twitter = Twitter(api_key, secret_key, token_key, token_secret)
 
