@@ -16,14 +16,6 @@ Installation
 
     pip install 
 
-
-Libs
----------------------------
-
-.. code:: sh
-
-    pip install -r requirements.txt
-
 Examples
 ---------------------------
 
