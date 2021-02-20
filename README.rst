@@ -1,4 +1,4 @@
-post-twitter (Developing)
+twitterpost (Developing)
 ---------------------------
 
 A Twitter library of the Twitter API.
