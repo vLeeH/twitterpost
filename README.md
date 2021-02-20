@@ -26,8 +26,6 @@ pip install -r requirements.txt
 ## Getting Started
 A quick and **easy post and searching in twitter** example: 
 
-.. code:: py
-
     from Twitterlib import Twitter
     import os 
     
