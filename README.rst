@@ -2,10 +2,6 @@ Twitterlib - Developing
 ---------------------------
 
 A Twitter library of the Twitter API. 
-
-Functionallies 
----------------------------
-
 - Search posts in Twitter
 - Do posts in Twitter 
 - Delete posts in Twitter  
@@ -17,7 +13,7 @@ Installation
 
 .. code:: sh
 
-    pip install Twitterlib
+    pip install 
 
 
 Libs
