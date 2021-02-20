@@ -14,16 +14,18 @@ Installation
 ---------------------------
 
 **Python** - 3.8 
-```
-pip install Twitterlib
-```
+
+.. code:: sh
+
+    pip install Twitterlib
+
 
 Libs
 ---------------------------
 
-```
+.. code:: sh
+
 pip install -r requirements.txt
-```
 
 Examples
 ---------------------------
