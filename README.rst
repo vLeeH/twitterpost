@@ -42,7 +42,6 @@ A quick and **easy post and searching in twitter** example:
 .. code:: py
 
     from Twitterlib import Twitter
-    import os 
     
     api_key = API_KEY
     secret_key = SECRET_KEY
