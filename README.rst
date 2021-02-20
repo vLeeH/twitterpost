@@ -1,11 +1,10 @@
-Twitterlib - Developing
+twitterpost (Developing)
 ---------------------------
 
 A Twitter library of the Twitter API.
 
 - Search posts in Twitter
 - Do posts in Twitter 
-- Delete posts in Twitter  
 
 Installation 
 ---------------------------
@@ -19,9 +18,9 @@ Installation
 Examples
 ---------------------------
 
-- `Basic <https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py#>`_ code example
-- `Intermediate <https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py#>`_ code example
-- `Advance <https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py#>`_ code example
+- `Basic <https://github.com/vLeeH/PostTwitter/blob/main/examples/Basic.py#>`_ code example
+- `Intermediate <https://github.com/vLeeH/PostTwitter/blob/main/examples/Intermediate.py#>`_ code example
+- `Advance <https://github.com/vLeeH/PostTwitter/blob/main/examples/Advance.py#>`_ code example
 
 Getting Started
 ---------------------------
@@ -30,7 +29,7 @@ A quick and **easy** post and searching in twitter example:
 
 .. code:: py
 
-    from Twitterlib import Twitter
+    from PostTwitter import Twitter
     import pprint
     
     api_key = API_KEY
