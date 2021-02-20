@@ -5,7 +5,6 @@ A Twitter library of the Twitter API.
 
 - Search posts in Twitter
 - Do posts in Twitter 
-- Delete posts in Twitter  
 
 Installation 
 ---------------------------
