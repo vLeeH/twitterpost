@@ -1,31 +1,44 @@
-# Twitterlib
+Twitterlib
+---------------------------
+
 A Twitter library of the Twitter API. 
 
-## Functionallies 
+Functionallies 
+---------------------------
+
 - Search posts in Twitter
 - Do posts in Twitter 
 - Delete posts in Twitter  
 
-## Installation 
+Installation 
+---------------------------
+
 **Python** - 3.8 
 ```
 pip install Twitterlib
 ```
 
-## Libs 
+Libs
+---------------------------
+
 ```
 pip install -r requirements.txt
 ```
 
-## Examples 
+Examples
+---------------------------
+
 - <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py">Basic</a> code example
 - <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py">Intermediate</a> code example
 - <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py">Advance</a> code example
 
 
-## Getting Started
+Getting Started
+---------------------------
+
 A quick and **easy post and searching in twitter** example: 
 
+.. code:: py
     from Twitterlib import Twitter
     import os 
     
