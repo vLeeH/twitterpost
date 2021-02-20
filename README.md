@@ -1,12 +1,36 @@
 # Twitterlib
 A Twitter library of the Twitter API. 
 
+## Functionallies 
+- Search posts in Twitter
+- Do posts in Twitter 
+- Delete posts in Twitter  
+
+## Installation 
+**Python** - 3.8 
+```
+pip install Twitterlib
+```
+
+## Libs 
+```
+pip install -r requirements.txt
+```
+
+## Examples 
+- <a href="">Basic</a> code example
+- <a href="">Intermediate</a> code example
+- <a href="">Advance</a> code example
+
+
 ## Getting Started
-A quick and easy post and searching in twitter example: 
+A quick and **easy post and searching in twitter** example: 
+
 .. code:: py
+
     from Twitterlib import Twitter
     import os 
-
+    
     api_key = API_KEY
     secret_key = SECRET_KEY
     token_key = TOKEN_KEY
@@ -23,19 +47,6 @@ A quick and easy post and searching in twitter example:
         print(f"{result['user']['screen_name']}:")
         print(result['text'])
         print('\n')
-
-## Examples 
-- <a href="">Basic</a> code example
-- <a href="">Intermediate</a> code example
-- <a href="">Advance</a> code example
-
-## Installation 
-**Python** - 3.8 
-```
-pip install Twitterlib
-```
-
-## Libs 
-```
-pip install -r requirements.txt
-```
+        
+        
+        
