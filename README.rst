@@ -30,10 +30,9 @@ pip install -r requirements.txt
 Examples
 ---------------------------
 
-- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py">Basic</a> code example
-- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py">Intermediate</a> code example
-- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py">Advance</a> code example
-
+- `Basic <https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py#>`_ code example
+- `Intermediate <https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py#>`_ code example
+- `Advance <https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py#>`_ code example
 
 Getting Started
 ---------------------------
