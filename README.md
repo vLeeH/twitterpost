@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Twitterlib
 A Twitter library of the Twitter API. 
 
