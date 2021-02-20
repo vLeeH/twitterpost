@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ```
 
 ## Examples 
-- <a href="">Basic</a> code example
-- <a href="">Intermediate</a> code example
-- <a href="">Advance</a> code example
+- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Basic.py">Basic</a> code example
+- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Intermediate.py">Intermediate</a> code example
+- <a href="https://github.com/vLeeH/Twitterlib/blob/main/examples/Advance.py">Advance</a> code example
 
 
 ## Getting Started
