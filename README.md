@@ -1,6 +1,12 @@
 <<<<<<< HEAD
 # Twitterlib
 A Twitter library of the Twitter API. 
+
+## Functionallies 
+- Search posts in Twitter
+- Do posts in Twitter 
+- Delete posts in Twitter  
+
 ## Installation 
 **Python** - 3.8 
 ```
@@ -20,6 +26,8 @@ pip install -r requirements.txt
 
 ## Getting Started
 A quick and **easy post and searching in twitter** example: 
+
+.. code:: py
 
     from Twitterlib import Twitter
     import os 
