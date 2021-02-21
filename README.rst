@@ -4,9 +4,6 @@ twitterpost
 .. image:: https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg
     :target: https://www.python.org
 
-.. image:: https://img.shields.io/github/license/vLeeH/twitterpost
-    :target: LICENSE
-
 A Twitter library of the Twitter API.
 
 - Search posts in Twitter
