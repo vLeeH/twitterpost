@@ -15,11 +15,9 @@ A Twitter library of the Twitter API.
 Installation 
 ---------------------------
 
-**Python** - ``3.8`` 
-
 .. code:: sh
 
-    pip install 
+    pip install twitterpost
 
 Examples
 ---------------------------
