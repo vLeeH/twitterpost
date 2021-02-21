@@ -24,7 +24,7 @@ Examples
 
 - `Basic <https://github.com/vLeeH/PostTwitter/blob/main/examples/Basic.py#>`_ code example
 - `Intermediate <https://github.com/vLeeH/PostTwitter/blob/main/examples/Intermediate.py#>`_ code example
-- `Creating a log <https://github.com/vLeeH/PostTwitter/blob/main/examples/Advance.py#>`_ code example
+- `Creating a log <https://github.com/vLeeH/twitterpost/blob/main/examples/post-log.py#>`_ code example
 
 Getting Started
 ---------------------------
