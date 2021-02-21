@@ -7,10 +7,7 @@ twitterpost
 .. image:: https://img.shields.io/github/license/vLeeH/twitterpost.svg
     :target: LICENSE
 
-A Twitter library of the Twitter API.
-
-- Search posts in Twitter
-- Do posts in Twitter 
+A Twitter library for the Twitter API that search and do posts in Twitter.
 
 Installation 
 ---------------------------
@@ -18,13 +15,6 @@ Installation
 .. code:: sh
 
     pip install twitterpost
-
-Examples
----------------------------
-
-- `Basic <https://github.com/vLeeH/PostTwitter/blob/main/examples/Basic.py#>`_ code example
-- `Intermediate <https://github.com/vLeeH/PostTwitter/blob/main/examples/Intermediate.py#>`_ code example
-- `Creating a log <https://github.com/vLeeH/twitterpost/blob/main/examples/post-log.py#>`_ code example
 
 Getting Started
 ---------------------------
