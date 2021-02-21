@@ -17,6 +17,7 @@ Installation
     py -3.8 -m pip install twitterpost
     
 .. code:: sh
+
     python3.8 -m pip install twitterpost
 
 Getting Started
