@@ -12,10 +12,14 @@ A Twitter library for the Twitter API that search and do posts in Twitter.
 Installation 
 ---------------------------
 
+**Windows**
+
 .. code:: sh
 
     py -3.8 -m pip install twitterpost
     
+**Linux**
+
 .. code:: sh
 
     python3.8 -m pip install twitterpost
