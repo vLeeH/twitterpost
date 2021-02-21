@@ -1,39 +1,24 @@
-twitterpost 
-=============
-
-.. image:: https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg
-    :target: https://www.python.org
-    
-.. image:: https://img.shields.io/github/license/vLeeH/twitterpost.svg
-    :target: LICENSE
-
+# twitterpost
+![license](https://img.shields.io/github/license/vLeeH/twitterpost.svg) ![python](https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg)
 A Twitter library for the Twitter API that search and do posts in Twitter.
 
-Installation 
----------------------------
-
+## Installation
 **Windows**
+```
+py -3.8 -m pip install twitterpost
+```
 
-.. code:: sh
-
-    py -3.8 -m pip install twitterpost
-    
 **Linux**
+```
+python3.8 -m pip install twitterpost
+```
 
-.. code:: sh
-
-    python3.8 -m pip install twitterpost
-
-Getting Started
----------------------------
-
-A quick and **easy** post and searching in twitter example: 
-
-.. code:: py
-
+## Getting Started
+A **quick** and **easy** post and searching in twitter example:
+```python
     from twitterpost import Twitter
     import pprint
-    
+
     api_key = API_KEY
     secret_key = SECRET_KEY
     token_key = TOKEN_KEY
@@ -50,6 +35,4 @@ A quick and **easy** post and searching in twitter example:
         print(f"{result['user']['screen_name']}:")
         print(result['text'])
         print('\n')
-        
-        
-        
+```

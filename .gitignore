@@ -1,1 +1,6 @@
+# Keys in env
 .env
+
+# Pypi (twine) packages 
+build/
+dist/
