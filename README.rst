@@ -29,7 +29,7 @@ A quick and **easy** post and searching in twitter example:
 
 .. code:: py
 
-    from PostTwitter import Twitter
+    from twitterpost import Twitter
     import pprint
     
     api_key = API_KEY
