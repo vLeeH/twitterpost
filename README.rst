@@ -1,5 +1,5 @@
-twitterpost (Developing)
----------------------------
+twitterpost 
+-----------
 
 .. image:: https://img.shields.io/badge/Python-3.8%20%7C%203.8-blue.svg
     :target: https://www.python.org
