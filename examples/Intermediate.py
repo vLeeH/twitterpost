@@ -53,4 +53,8 @@ while True:
             break 
     
 
-print('Thanks for use the Twitterlib!')
+print('''
+┌┬┐┬ ┬┬┌┬┐┌┬┐┌─┐┬─┐┌─┐┌─┐┌─┐┌┬┐
+ │ ││││ │  │ ├┤ ├┬┘├─┘│ │└─┐ │ 
+ ┴ └┴┘┴ ┴  ┴ └─┘┴└─┴  └─┘└─┘ ┴  by: vLeeH
+''')

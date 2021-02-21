@@ -1,5 +1,11 @@
-twitterpost (Developing)
----------------------------
+twitterpost 
+=============
+
+.. image:: https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg
+    :target: https://www.python.org
+    
+.. image:: https://img.shields.io/github/license/vLeeH/twitterpost.svg
+    :target: LICENSE
 
 A Twitter library of the Twitter API.
 
@@ -9,18 +15,16 @@ A Twitter library of the Twitter API.
 Installation 
 ---------------------------
 
-**Python** - ``3.8`` 
-
 .. code:: sh
 
-    pip install 
+    pip install twitterpost
 
 Examples
 ---------------------------
 
 - `Basic <https://github.com/vLeeH/PostTwitter/blob/main/examples/Basic.py#>`_ code example
 - `Intermediate <https://github.com/vLeeH/PostTwitter/blob/main/examples/Intermediate.py#>`_ code example
-- `Advance <https://github.com/vLeeH/PostTwitter/blob/main/examples/Advance.py#>`_ code example
+- `Creating a log <https://github.com/vLeeH/PostTwitter/blob/main/examples/Advance.py#>`_ code example
 
 Getting Started
 ---------------------------
@@ -29,7 +33,7 @@ A quick and **easy** post and searching in twitter example:
 
 .. code:: py
 
-    from PostTwitter import Twitter
+    from twitterpost import Twitter
     import pprint
     
     api_key = API_KEY

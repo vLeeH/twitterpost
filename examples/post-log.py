@@ -2,7 +2,6 @@
 -*- coding utf-8 -*-
 [INFO]
 Don't forget to create an Developer account in Twitter
-
 [IMPORTANT]
 api_key - is the api key of your app in Twitter api.
 secret_key - is the secret key of your app in Twitter api.
@@ -15,11 +14,10 @@ import os
 import pprint
 from time import sleep
 
-
-api_key = os.getenv('API_KEY')
-secret_key = os.getenv('SECRET_KEY')
-token_key = os.getenv('TOKEN_KEY')
-token_secret = os.getenv('TOKEN_SECRET')
+api_key = API_KEY
+secret_key = SECRET_KEY
+token_key = TOKEN_KEY
+token_secret = TOKEN_SECRET
 
 twitter = Twitter(api_key, secret_key, token_key, token_secret)
 
@@ -81,4 +79,8 @@ while True:
     else:
         break
         
-print('Thanks for use the Twitterlib!')
+print('''
+┌┬┐┬ ┬┬┌┬┐┌┬┐┌─┐┬─┐┌─┐┌─┐┌─┐┌┬┐
+ │ ││││ │  │ ├┤ ├┬┘├─┘│ │└─┐ │ 
+ ┴ └┴┘┴ ┴  ┴ └─┘┴└─┴  └─┘└─┘ ┴  by: vLeeH
+''')

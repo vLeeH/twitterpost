@@ -32,3 +32,9 @@ for result in searching:
     print(f"{result['user']['screen_name']}:")
     print(result['text'])
     print('\n')
+
+print('''
+┌┬┐┬ ┬┬┌┬┐┌┬┐┌─┐┬─┐┌─┐┌─┐┌─┐┌┬┐
+ │ ││││ │  │ ├┤ ├┬┘├─┘│ │└─┐ │ 
+ ┴ └┴┘┴ ┴  ┴ └─┘┴└─┴  └─┘└─┘ ┴  by: vLeeH
+''')
