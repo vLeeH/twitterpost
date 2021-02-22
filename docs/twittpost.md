@@ -9,8 +9,8 @@ You need to create an account/developer account in Twitter, after that:
 
 ## Variables 
 **Secret and Api key of Twitter app**
--- api_key 
--- secret_key 
+- api_key 
+- secret_key 
 
 **Token key and secret of Twitter app**
 - token_key 
