@@ -4,3 +4,4 @@
 # Pypi (twine) packages 
 build/
 dist/
+twittpost.egg-info/

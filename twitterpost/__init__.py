@@ -1,4 +1,4 @@
-__title__ = 'twitterpost'
+__title__ = 'twittpost'
 __author__ = 'vLeeH'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2019-2020 (c) vLeeH'

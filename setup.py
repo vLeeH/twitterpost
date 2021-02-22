@@ -2,20 +2,20 @@ import setuptools
 import codecs
 import os
 
-with open("README.rst", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 
 # Setting up
 setuptools.setup(
-    name="twitterpost",
+    name="twittpost",
     version="0.0.1",
     author="vLeeH",
     author_email="vitorlee.tech@gmail.com",
     description="A library that search and do posts in Twitter.",
     long_description_content_type="text/markdown",
     long_description=long_description,
-    url="https://github.com/vLeeH/twitterpost",
+    url="https://github.com/vLeeH/twittpost",
     install_requires=['oauth2', 'oauthlib'] ,
     keywords=['python', 'twitter', 'posts'], 
     classifiers=[

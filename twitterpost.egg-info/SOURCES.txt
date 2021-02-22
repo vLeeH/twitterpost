@@ -1,9 +1,0 @@
-README.rst
-setup.py
-twitterpost/TwitterConnection.py
-twitterpost/__init__.py
-twitterpost.egg-info/PKG-INFO
-twitterpost.egg-info/SOURCES.txt
-twitterpost.egg-info/dependency_links.txt
-twitterpost.egg-info/requires.txt
-twitterpost.egg-info/top_level.txt
