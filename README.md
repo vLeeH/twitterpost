@@ -5,12 +5,12 @@ A Twitter library for the Twitter API that search and do posts in Twitter.
 ## Installation
 **Windows**
 ```
-py -3.8 -m pip install twitterpost
+py -3.8 -m pip install twittpost
 ```
 
 **Linux**
 ```
-python3.8 -m pip install twitterpost
+python3.8 -m pip install twittpost
 ```
 
 ## Getting Started
