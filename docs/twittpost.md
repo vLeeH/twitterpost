@@ -7,7 +7,7 @@ Welcome to **twittpost's Documentation**. Twittpost is a simple library for Twit
 You need to create an account/developer account in Twitter, after that need to create an app in Developer portal of Twitter.
 
 ## Variables 
-**Secret and Api key of Twitter app**
+**Secret and api key of Twitter app**
 - api_key 
 - secret_key 
 
