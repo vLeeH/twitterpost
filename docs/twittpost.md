@@ -8,7 +8,7 @@ Twittpost is a simple library for Twitter API, that create and search posts.<br>
 ## Important
 You need to create an account/developer account in Twitter, after that need to create an app in Developer portal of Twitter.
 
-## Variables 
+### Variables 
 **Secret and api key of Twitter app**
 - api_key 
 - secret_key 
@@ -17,7 +17,7 @@ You need to create an account/developer account in Twitter, after that need to c
 - token_key 
 - token_secret 
 
-## URL's
+### URL's
 **API References** (Developer portal)
 - <a href="https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets">Search Tweets</a>
 - <a href="https://developer.twitter.com/en/docs/twitter-api/v1/tweets/post-and-engage/api-reference/post-statuses-update">Doing posts</a>
