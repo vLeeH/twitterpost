@@ -58,8 +58,8 @@ A **quick** and **easy** post and searching in twitter example:
         print(result['text'])
         print('\n')
 ```
-<br>
-Dating in a log.txt the search and posts 
+
+**Dating** in a log.txt the search and posts 
 ```python
 from twittpost import Twitter
 import os 
