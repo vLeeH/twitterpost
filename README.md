@@ -16,7 +16,7 @@ python3.8 -m pip install twittpost
 ## Getting Started
 A **quick** and **easy** post and searching in twitter example:
 ```python
-    from twitterpost import Twitter
+    from twittpost import Twitter
     import pprint
 
     api_key = API_KEY
