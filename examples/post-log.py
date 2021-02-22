@@ -21,6 +21,7 @@ token_secret = TOKEN_SECRET
 
 twitter = Twitter(api_key, secret_key, token_key, token_secret)
 
+
 # Post the tweet
 while True:
     ask_post1 = str(input('Do you want post a Tweet[Y/N]? ')).upper().strip()
