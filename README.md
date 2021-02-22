@@ -17,7 +17,7 @@ python3.8 -m pip install twittpost
 ```
 
 ## Getting Started
-A **quick* and **easy** post and searching in twitter example:
+A **quick** and **easy** post and searching in twitter example:
 ```python
     from twittpost import Twitter
     import pprint
