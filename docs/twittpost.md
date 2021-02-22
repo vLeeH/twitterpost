@@ -1,6 +1,8 @@
 # 📄 Twittpost 
+Welcome to **twittpost's Documentation**. 
 
-Welcome to **twittpost's Documentation**. Twittpost is a simple library for Twitter API, that create and search posts.<br>
+## Functionally
+Twittpost is a simple library for Twitter API, that create and search posts.<br>
 <a href="https://github.com/vLeeH/twittpost/blob/main/twitterpost/TwitterConnection.py">↳ Source Code</a>
 
 ## Important
