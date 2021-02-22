@@ -4,8 +4,7 @@ Welcome to **twittpost's Documentation**. Twittpost is a simple library for Twit
 <a href="https://github.com/vLeeH/twittpost/blob/main/twitterpost/TwitterConnection.py">↳ Source Code</a>
 
 ## Important
-You need to create an account/developer account in Twitter, after that:
-- Need to create an app in Developer portal of Twitter.
+You need to create an account/developer account in Twitter, after that need to create an app in Developer portal of Twitter.
 
 ## Variables 
 **Secret and Api key of Twitter app**
