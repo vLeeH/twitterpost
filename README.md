@@ -3,7 +3,7 @@
 A Twitter library for the Twitter API that search and do posts in Twitter.
 
 ## Documentation
-<a>Documentation</a> of twittpost
+<a href="https://github.com/vLeeH/twittpost/tree/main/docs">Documentation</a> of twittpost
 
 ## Installation
 **Windows**
