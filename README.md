@@ -1,5 +1,5 @@
 # twittpost
-![license](https://img.shields.io/github/license/vLeeH/twitterpost.svg) ![python](https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg)
+![python](https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg) ![license](https://img.shields.io/github/license/vLeeH/twitterpost.svg) <br>
 A Twitter library for the Twitter API that search and do posts in Twitter.
 
 ## Installation
@@ -16,7 +16,7 @@ python3.8 -m pip install twittpost
 ## Getting Started
 A **quick** and **easy** post and searching in twitter example:
 ```python
-    from twittpost import Twitter
+    from twitterpost import Twitter
     import pprint
 
     api_key = API_KEY
