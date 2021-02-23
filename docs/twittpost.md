@@ -3,7 +3,7 @@ Welcome to **twittpost's Documentation**.
 
 ## Functionally
 Twittpost is a simple library for Twitter API, that create and search posts.<br>
-<a href="https://github.com/vLeeH/twittpost/blob/main/twitterpost/TwitterConnection.py">↳ Source Code</a>
+<a href="https://github.com/vLeeH/twittpost/blob/main/twittpost/TwitterConnection.py">↳ Source Code</a>
 
 ## Important
 You need to create an account/developer account in Twitter, after that need to create an app in Developer portal of Twitter.
