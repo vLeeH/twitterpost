@@ -5,7 +5,7 @@ A Twitter wrapper for the Twitter API that search and do posts in Twitter.
 ## Documentation
 <a href="https://github.com/vLeeH/twittpost/tree/main/docs">Documentation</a>
 
-## Installation
+## Installations
 **Windows**
 ```
 py -3.8 -m pip install twittpost
