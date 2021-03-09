@@ -1,4 +1,4 @@
-# 📄 Twittpost 
+# Twittpost 
 Welcome to **twittpost's Documentation**. 
 
 ## Functionally
