@@ -26,6 +26,10 @@ import json
 
 import urllib.parse
 
+""" 
+VERSION - 0.0.1
+"""
+
 class Twitter: 
     def __init__(self, api_key, secret_key, token_key, token_secret): 
         """Set the token keys of your Twitter App."""
