@@ -3,7 +3,7 @@
 A Twitter wrapper for the Twitter API that search and do posts in Twitter.
 
 ## Documentation
-<a href="https://github.com/vLeeH/twittpost/tree/main/docs">Documentation</a>
+<a href="https://github.com/vLeeH/twittpost/blob/main/docs/twittpost.md">Documentation</a>
 
 ## Installations
 **Windows**
