@@ -28,13 +28,13 @@ import urllib.parse
 
 class Twitter: 
     def __init__(self, api_key, secret_key, token_key, token_secret): 
-        """Set the keys of the Twitter App"""
+        """Set the token keys of your Twitter App."""
         self.connection(
             api_key, secret_key, token_key, token_secret)
 
     
     def connection(self, api_key, secret_key, token_key, token_secret):
-        """Connect with the keys of the Twitter App"""
+        """Connect with the token keys of your Twitter App."""
         self.consumer = oauth2.Consumer(api_key, secret_key) 
         self.token = oauth2.Token(token_key, token_secret)
         self.cliente = oauth2.Client(self.consumer, self.token)
@@ -57,9 +57,9 @@ class Twitter:
     
     def search(self, query, lang):
         """Searching for tweets:
-        - Get the api of search/tweets 
-        - lang = the lang of the search 
-        - twitts = objeto['statuses'] - just get the statuses """
+        - Get the api of search/tweets
+        - lang = the language of the search
+        - twitts = objeto['statuses'] - get the statuses """
         query_codificate = urllib.parse.quote(query, safe='')
 
         requisicao = self.cliente.request(
