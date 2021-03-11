@@ -5,3 +5,5 @@
 build/
 dist/
 twittpost.egg-info/
+
+.vscode/settings.json

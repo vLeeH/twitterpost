@@ -2,7 +2,7 @@
 
 """
 The MIT License (MIT)
-Copyright (c) 2015-2019 vLeeH
+Copyright (c) 2019-2020 vLeeH
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation
@@ -26,22 +26,26 @@ import json
 
 import urllib.parse
 
+""" 
+VERSION: 0.0.2
+"""
+
 class Twitter: 
     def __init__(self, api_key, secret_key, token_key, token_secret): 
-        """Set the keys"""
+        """Set the token keys of your Twitter App."""
         self.connection(
             api_key, secret_key, token_key, token_secret)
 
     
     def connection(self, api_key, secret_key, token_key, token_secret):
-        """Connect with the keys"""
+        """Connect with the token keys of your Twitter App."""
         self.consumer = oauth2.Consumer(api_key, secret_key) 
         self.token = oauth2.Token(token_key, token_secret)
         self.cliente = oauth2.Client(self.consumer, self.token)
 
 
     def tweet(self, new_tweet): 
-        """Post a tweet using the terminal
+        """Post a tweet using the terminal:
         - Put the method = POST, to indicate the type of method
         - Get the api of statuses/update """
         query_codificate = urllib.parse.quote(new_tweet, safe='')
@@ -56,10 +60,10 @@ class Twitter:
 
     
     def search(self, query, lang):
-        """Search for tweets.
-        - Get the api of search/tweets 
-        - lang = the lang of the search 
-        - twitts = objeto['statuses'] - just get the statuses """
+        """Searching for tweets:
+        - Get the api of search/tweets
+        - lang = the language of the search
+        - twitts = objeto['statuses'] - get the statuses """
         query_codificate = urllib.parse.quote(query, safe='')
 
         requisicao = self.cliente.request(

@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 # Setting up
 setuptools.setup(
     name="twittpost",
-    version="0.0.1",
+    version="0.0.2",
     author="vLeeH",
     author_email="vitorlee.tech@gmail.com",
     description="A library that search and do posts in Twitter.",
