@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 # Setting up
 setuptools.setup(
-    name="twitterpost",
+    name="twitterposts",
     version="0.0.1",
     author="vLeeH",
     author_email="vitorlee.tech@gmail.com",

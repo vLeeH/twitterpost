@@ -1,5 +1,5 @@
-# Twittpost 
-Welcome to **twittpost's Documentation**. 
+# Twitterposts 
+Welcome to **twitterposts's Documentation**. 
 
 ## Functionally
 Twittpost is a simple library for Twitter API, that create and search posts.<br>

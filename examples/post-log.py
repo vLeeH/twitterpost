@@ -9,7 +9,7 @@ token_key - is the token key of your app in Twitter api.
 token_secret - is the token secret of your app in Twitter api.
 """
 
-from twittposter import Twitter
+from twitterposts import Twitter
 import os 
 import pprint
 from time import sleep
