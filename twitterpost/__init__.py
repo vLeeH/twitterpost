@@ -1,8 +1,8 @@
-__title__ = 'twittpost'
+__title__ = 'twitterpost'
 __author__ = 'vLeeH'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2019-2020 (c) vLeeH'
 __version__ = '0.0.2'
 
-from twittpost.TwitterConnection import Twitter
+from twitterpost.TwitterConnection import Twitter
 

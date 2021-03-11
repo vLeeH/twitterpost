@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 # Setting up
 setuptools.setup(
-    name="twittpost",
+    name="twitterpost",
     version="0.0.1",
     author="vLeeH",
     author_email="vitorlee.tech@gmail.com",
     description="A library that search and do posts in Twitter.",
     long_description_content_type="text/markdown",
     long_description=long_description,
-    url="https://github.com/vLeeH/twittpost",
+    url="https://github.com/vLeeH/twitterpost",
     install_requires=['oauth2', 'oauthlib'] ,
     keywords=['python', 'twitter', 'posts'], 
     classifiers=[
