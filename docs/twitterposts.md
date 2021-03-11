@@ -63,7 +63,7 @@ for result in searching:
     print('\n')
 ```
 
-
+## Quick example
 ```python
 from twittpost import Twitter
 import pprint
