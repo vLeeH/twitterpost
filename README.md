@@ -1,11 +1,11 @@
 # twittpost
 ![python](https://img.shields.io/badge/Python-3.7%20%7C%203.8-blue.svg) ![license](https://img.shields.io/github/license/vLeeH/twitterpost.svg) <br>
-A Twitter library for the Twitter API that search and do posts in Twitter.
+A Twitter wrapper for the Twitter API that search and do posts in Twitter.
 
 ## Documentation
-<a href="https://github.com/vLeeH/twittpost/tree/main/docs">Documentation</a>
+<a href="https://github.com/vLeeH/twittpost/blob/main/docs/twittpost.md">Documentation</a>
 
-## Installation
+## Installations
 **Windows**
 ```
 py -3.8 -m pip install twittpost
