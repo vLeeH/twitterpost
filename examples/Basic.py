@@ -1,8 +1,7 @@
+# -*- coding utf-8 -*-
 """
--*- coding utf-8 -*-
 [INFO]
 Don't forget to create an Developer account in Twitter
-
 [IMPORTANT]
 api_key - is the api key of your app in Twitter api.
 secret_key - is the secret key of your app in Twitter api.
