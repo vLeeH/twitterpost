@@ -37,7 +37,7 @@ python3.8 -m pip install twittpost
 ```
 
 ## Explanation
-Put the keys/tokens of your Twitter APP
+Put the keys/tokens of your Twitter App.
 ```python
 api_key = API_KEY
 secret_key = SECRET_KEY
@@ -45,17 +45,21 @@ token_key = TOKEN_KEY
 token_secret = TOKEN_SECRET
 ```
 
-Pass the variables in the function
+
+Pass the variables in the function.
 ```python
 twitter = Twitter(api_key, secret_key, token_key, token_secret)
 ```
 
-Publicate a tweet in Twitter
+
+Publicate a tweet in Twitter.
 - In `twitter.tweet('test')` put the message that you want to publicate.
+
 
 Put the location and the lang that you want to search.
 ```python
 searching = twitter.search('brasil', 'pt')
+
 
 for result in searching:
     print(f"{result['user']['screen_name']}:")
