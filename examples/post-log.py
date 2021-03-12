@@ -41,13 +41,11 @@ def menu():
 """
     )
 
-
-def post_tweet(post):
+def publicate_tweet(post):
     """Post the tweet function of twitterposts"""
     twitter.tweet(post)
 
-
-def main(): 
+def post_tweet():
     """Main function to put posts publicated in a log.txt"""
     while True:
         ask_post1 = str(input("Do you want post a Tweet[Y/N]? ")).upper().strip()
@@ -55,7 +53,7 @@ def main():
             try:
                 sleep(1)
                 post = str(input("Inform your tweet: "))
-                resp = post_tweet(post)
+                resp = publicate_tweet(post)
                 data = date.today()
                 try:
                     with open("tweet_posted.txt", "at+", encoding="utf8") as t:
@@ -75,7 +73,6 @@ def main():
             break
 
 
-# Search for tweet
 def post_search():
     """Function to search for tweets and put in a log.txt"""
     while True:
@@ -90,21 +87,20 @@ def post_search():
             language = (
                 str(input("And wich language do you want search? ")).lower().strip()
             )
-
+            data = date.today()
             # Use the funtion of twittlib to search for posts
             searching = twitter.search(country, language)
             for result in searching:
                 print(f"{result['user']['screen_name']}:")
                 print(f"{result['text']} \n")
                 print()
-                data = date.today()
                 try:
                     with open("results.txt", "at+", encoding="utf8") as t:
                         t.write(
                             f""" {data.day}/{data.month}/{data.year}: \n @{result['user']['screen_name']}: {result['text']} \n\n """
                         )
                 except Exception as u:
-                    print(f"[ERROR] - {u}")
+                        print(f"[ERROR] - {u}")
 
             sleep(1)
             print("Tweets searched with success.")
@@ -118,6 +114,5 @@ def post_search():
 
 
 menu()
-if __name__ == "__main__":
-    main()
+post_tweet()
 post_search()
